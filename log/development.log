@@ -1,0 +1,61 @@
+
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (3.5ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (34.4ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateRegistrations (20100311101945)
+  [4;36;1mSQL (2.5ms)[0m   [0;1mCREATE TABLE "registrations" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "last_name" varchar(255), "email" varchar(255), "one_line_abstract" text, "phone_no" integer, "mode_of_reach" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;35;1mSQL (2.3ms)[0m   [0mINSERT INTO schema_migrations (version) VALUES ('20100311101945')[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSELECT version FROM schema_migrations[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mPRAGMA index_list("registrations")[0m
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-11 15:50:06) [GET]
+  [4;36;1mRegistration Load (0.4ms)[0m   [0;1mSELECT * FROM "registrations" [0m
+Rendering template within layouts/registrations
+Rendering registrations/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/registrations]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-11 15:50:08) [GET]
+Rendering template within layouts/registrations
+Rendering registrations/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#create (for 127.0.0.1 at 2010-03-11 15:50:27) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"ac393898898e938e0372d3c0b99d9f8b4eecc3b4", "registration"=>{"name"=>"Arvind", "mode_of_reach"=>"TW.com", "last_name"=>"Kunday", "phone_no"=>"9677010095", "one_line_abstract"=>"Bla Bla Bla", "email"=>"kunday@gmail.com"}}
+  [4;35;1mRegistration Create (0.4ms)[0m   [0mINSERT INTO "registrations" ("name", "created_at", "updated_at", "last_name", "mode_of_reach", "one_line_abstract", "phone_no", "email") VALUES('Arvind', '2010-03-11 10:20:27', '2010-03-11 10:20:27', 'Kunday', 'TW.com', 'Bla Bla Bla', 9677010095, 'kunday@gmail.com')[0m
+Redirected to #<Registration:0x103d9f568>
+Completed in 17ms (DB: 0) | 302 Found [http://localhost/registrations]
+
+
+Processing RegistrationsController#show (for 127.0.0.1 at 2010-03-11 15:50:27) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mRegistration Load (0.2ms)[0m   [0;1mSELECT * FROM "registrations" WHERE ("registrations"."id" = 1) [0m
+Rendering template within layouts/registrations
+Rendering registrations/show
+Completed in 10ms (View: 4, DB: 0) | 200 OK [http://localhost/registrations/1]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-11 15:50:30) [GET]
+  [4;35;1mRegistration Load (0.5ms)[0m   [0mSELECT * FROM "registrations" [0m
+Rendering template within layouts/registrations
+Rendering registrations/index
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations]

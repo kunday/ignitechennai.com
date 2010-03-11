@@ -1,0 +1,33 @@
+<p>
+  <b>Name:</b>
+  <%=h @registration.name %>
+</p>
+
+<p>
+  <b>Last name:</b>
+  <%=h @registration.last_name %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%=h @registration.email %>
+</p>
+
+<p>
+  <b>One line abstract:</b>
+  <%=h @registration.one_line_abstract %>
+</p>
+
+<p>
+  <b>Phone no:</b>
+  <%=h @registration.phone_no %>
+</p>
+
+<p>
+  <b>Mode of reach:</b>
+  <%=h @registration.mode_of_reach %>
+</p>
+
+
+<%= link_to 'Edit', edit_registration_path(@registration) %> |
+<%= link_to 'Back', registrations_path %>
