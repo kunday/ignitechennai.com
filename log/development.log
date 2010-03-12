@@ -2729,3 +2729,1208 @@ Processing HomeController#about (for 127.0.0.1 at 2010-03-12 11:55:11) [GET]
 Rendering template within layouts/master
 Rendering home/about
 Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 11:57:03) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 11:57:03) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 11:57:30) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 11:58:02) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 11:58:03) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 11:58:04) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 11:58:05) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 11:58:05) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 11:58:06) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 11:58:06) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:02:30) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:02:38) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:02:50) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:03:40) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:03:43) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:04:10) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:04:15) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 12:04:17) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 99ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:04:18) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:09:06) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:09:15) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 12:09:17) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 22ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:09:18) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 12:09:18) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 12:12:53) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 12:12:57) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 12:13:00) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 12:13:02) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 12:13:03) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 14:12:35) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 14:12:36) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 16ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#create (for 127.0.0.1 at 2010-03-12 14:12:37) [POST]
+  Parameters: {"commit"=>"Register", "authenticity_token"=>"941d2440d5a696ec3482273f46a9fd2fe2b92d88", "registration"=>{"name"=>"", "mode_of_reach"=>"", "last_name"=>"", "phone_no"=>"", "one_line_abstract"=>"", "email"=>""}}
+  [4;36;1mRegistration Create (0.5ms)[0m   [0;1mINSERT INTO "registrations" ("name", "created_at", "updated_at", "last_name", "mode_of_reach", "one_line_abstract", "phone_no", "email") VALUES('', '2010-03-12 08:42:37', '2010-03-12 08:42:37', '', '', '', NULL, '')[0m
+Redirected to /thank_you
+Completed in 18ms (DB: 0) | 302 Found [http://localhost/registrations]
+
+
+Processing HomeController#thank_you (for 127.0.0.1 at 2010-03-12 14:12:37) [GET]
+Rendering template within layouts/master
+Rendering home/thank_you
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/thank_you]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 14:12:45) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 14:12:47) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 14:30:35) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 14:31:28) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 14:32:15) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 14:32:57) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 14:32:58) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+
+
+ActionView::MissingTemplate (Missing template home/ignite_2009.erb in view path /Users/kunday/ignite_chennai/app/views:):
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:95:in `find_full_path'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/template.rb:16:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:332:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:332:in `_unmemoized__pick_template'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:70:in `_pick_template'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:256:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:367:in `_render_with_layout'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_view/base.rb:254:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1174:in `render_for_file'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:896:in `render_without_benchmark'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:868:in `render_without_benchmark'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:51:in `render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1248:in `default_render'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1254:in `perform_action_without_filters'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 14:33:10) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 14:33:38) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 14:33:42) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 14:33:43) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 14:33:58) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 14:34:00) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 14:34:01) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 34ms (View: 29, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 14:34:02) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 14:34:29) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 14:34:34) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 14:34:36) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:25:13) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:25:13) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:25:13) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 17:25:16) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 23ms (View: 22, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 17:25:28) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 214ms (View: 212, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 17:25:28) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 47ms (View: 27, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:25:31) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 17:25:32) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 17:25:33) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 17:25:37) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-12 17:25:39) [GET]
+  [4;36;1mRegistration Load (1.4ms)[0m   [0;1mSELECT * FROM "registrations" [0m
+Rendering template within layouts/master
+Rendering registrations/index
+Completed in 16ms (View: 10, DB: 1) | 200 OK [http://localhost/registrations/]
+
+
+Processing RegistrationsController#destroy (for 127.0.0.1 at 2010-03-12 17:25:43) [DELETE]
+  Parameters: {"authenticity_token"=>"536780d78c78f769a16467f30ee15a2163f68c5d", "id"=>"9"}
+  [4;35;1mRegistration Load (0.3ms)[0m   [0mSELECT * FROM "registrations" WHERE ("registrations"."id" = 9) [0m
+  [4;36;1mRegistration Destroy (0.4ms)[0m   [0;1mDELETE FROM "registrations" WHERE "id" = 9[0m
+Redirected to http://localhost:3000/registrations
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/registrations/9]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-12 17:25:43) [GET]
+  [4;35;1mRegistration Load (1.0ms)[0m   [0mSELECT * FROM "registrations" [0m
+Rendering template within layouts/master
+Rendering registrations/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/registrations]
+
+
+Processing RegistrationsController#destroy (for 127.0.0.1 at 2010-03-12 17:25:44) [DELETE]
+  Parameters: {"authenticity_token"=>"536780d78c78f769a16467f30ee15a2163f68c5d", "id"=>"8"}
+  [4;36;1mRegistration Load (0.2ms)[0m   [0;1mSELECT * FROM "registrations" WHERE ("registrations"."id" = 8) [0m
+  [4;35;1mRegistration Destroy (0.3ms)[0m   [0mDELETE FROM "registrations" WHERE "id" = 8[0m
+Redirected to http://localhost:3000/registrations
+Completed in 71ms (DB: 0) | 302 Found [http://localhost/registrations/8]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-12 17:25:44) [GET]
+  [4;36;1mRegistration Load (0.9ms)[0m   [0;1mSELECT * FROM "registrations" [0m
+Rendering template within layouts/master
+Rendering registrations/index
+Completed in 15ms (View: 9, DB: 1) | 200 OK [http://localhost/registrations]
+
+
+Processing RegistrationsController#destroy (for 127.0.0.1 at 2010-03-12 17:25:45) [DELETE]
+  Parameters: {"authenticity_token"=>"536780d78c78f769a16467f30ee15a2163f68c5d", "id"=>"7"}
+  [4;35;1mRegistration Load (0.2ms)[0m   [0mSELECT * FROM "registrations" WHERE ("registrations"."id" = 7) [0m
+  [4;36;1mRegistration Destroy (0.3ms)[0m   [0;1mDELETE FROM "registrations" WHERE "id" = 7[0m
+Redirected to http://localhost:3000/registrations
+Completed in 10ms (DB: 1) | 302 Found [http://localhost/registrations/7]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-12 17:25:45) [GET]
+  [4;35;1mRegistration Load (0.8ms)[0m   [0mSELECT * FROM "registrations" [0m
+Rendering template within layouts/master
+Rendering registrations/index
+Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/registrations]
+
+
+Processing RegistrationsController#destroy (for 127.0.0.1 at 2010-03-12 17:25:46) [DELETE]
+  Parameters: {"authenticity_token"=>"536780d78c78f769a16467f30ee15a2163f68c5d", "id"=>"6"}
+  [4;36;1mRegistration Load (0.3ms)[0m   [0;1mSELECT * FROM "registrations" WHERE ("registrations"."id" = 6) [0m
+  [4;35;1mRegistration Destroy (0.3ms)[0m   [0mDELETE FROM "registrations" WHERE "id" = 6[0m
+Redirected to http://localhost:3000/registrations
+Completed in 9ms (DB: 1) | 302 Found [http://localhost/registrations/6]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-12 17:25:46) [GET]
+  [4;36;1mRegistration Load (0.8ms)[0m   [0;1mSELECT * FROM "registrations" [0m
+Rendering template within layouts/master
+Rendering registrations/index
+Completed in 13ms (View: 8, DB: 1) | 200 OK [http://localhost/registrations]
+
+
+Processing RegistrationsController#destroy (for 127.0.0.1 at 2010-03-12 17:25:48) [DELETE]
+  Parameters: {"authenticity_token"=>"536780d78c78f769a16467f30ee15a2163f68c5d", "id"=>"5"}
+  [4;35;1mRegistration Load (0.2ms)[0m   [0mSELECT * FROM "registrations" WHERE ("registrations"."id" = 5) [0m
+  [4;36;1mRegistration Destroy (0.2ms)[0m   [0;1mDELETE FROM "registrations" WHERE "id" = 5[0m
+Redirected to http://localhost:3000/registrations
+Completed in 9ms (DB: 0) | 302 Found [http://localhost/registrations/5]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-12 17:25:48) [GET]
+  [4;35;1mRegistration Load (0.7ms)[0m   [0mSELECT * FROM "registrations" [0m
+Rendering template within layouts/master
+Rendering registrations/index
+Completed in 73ms (View: 69, DB: 1) | 200 OK [http://localhost/registrations]
+
+
+Processing RegistrationsController#destroy (for 127.0.0.1 at 2010-03-12 17:25:50) [DELETE]
+  Parameters: {"authenticity_token"=>"536780d78c78f769a16467f30ee15a2163f68c5d", "id"=>"4"}
+  [4;36;1mRegistration Load (0.2ms)[0m   [0;1mSELECT * FROM "registrations" WHERE ("registrations"."id" = 4) [0m
+  [4;35;1mRegistration Destroy (0.2ms)[0m   [0mDELETE FROM "registrations" WHERE "id" = 4[0m
+Redirected to http://localhost:3000/registrations
+Completed in 8ms (DB: 0) | 302 Found [http://localhost/registrations/4]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-12 17:25:50) [GET]
+  [4;36;1mRegistration Load (0.6ms)[0m   [0;1mSELECT * FROM "registrations" [0m
+Rendering template within layouts/master
+Rendering registrations/index
+Completed in 11ms (View: 7, DB: 1) | 200 OK [http://localhost/registrations]
+
+
+Processing RegistrationsController#destroy (for 127.0.0.1 at 2010-03-12 17:25:51) [DELETE]
+  Parameters: {"authenticity_token"=>"536780d78c78f769a16467f30ee15a2163f68c5d", "id"=>"3"}
+  [4;35;1mRegistration Load (0.2ms)[0m   [0mSELECT * FROM "registrations" WHERE ("registrations"."id" = 3) [0m
+  [4;36;1mRegistration Destroy (0.2ms)[0m   [0;1mDELETE FROM "registrations" WHERE "id" = 3[0m
+Redirected to http://localhost:3000/registrations
+Completed in 11ms (DB: 0) | 302 Found [http://localhost/registrations/3]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-12 17:25:51) [GET]
+  [4;35;1mRegistration Load (0.6ms)[0m   [0mSELECT * FROM "registrations" [0m
+Rendering template within layouts/master
+Rendering registrations/index
+Completed in 11ms (View: 6, DB: 1) | 200 OK [http://localhost/registrations]
+
+
+Processing RegistrationsController#destroy (for 127.0.0.1 at 2010-03-12 17:25:54) [DELETE]
+  Parameters: {"authenticity_token"=>"536780d78c78f769a16467f30ee15a2163f68c5d", "id"=>"2"}
+  [4;36;1mRegistration Load (0.2ms)[0m   [0;1mSELECT * FROM "registrations" WHERE ("registrations"."id" = 2) [0m
+  [4;35;1mRegistration Destroy (0.2ms)[0m   [0mDELETE FROM "registrations" WHERE "id" = 2[0m
+Redirected to http://localhost:3000/registrations
+Completed in 10ms (DB: 0) | 302 Found [http://localhost/registrations/2]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-12 17:25:54) [GET]
+  [4;36;1mRegistration Load (0.5ms)[0m   [0;1mSELECT * FROM "registrations" [0m
+Rendering template within layouts/master
+Rendering registrations/index
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations]
+
+
+Processing RegistrationsController#destroy (for 127.0.0.1 at 2010-03-12 17:25:55) [DELETE]
+  Parameters: {"authenticity_token"=>"536780d78c78f769a16467f30ee15a2163f68c5d", "id"=>"1"}
+  [4;35;1mRegistration Load (0.6ms)[0m   [0mSELECT * FROM "registrations" WHERE ("registrations"."id" = 1) [0m
+  [4;36;1mRegistration Destroy (0.3ms)[0m   [0;1mDELETE FROM "registrations" WHERE "id" = 1[0m
+Redirected to http://localhost:3000/registrations
+Completed in 37ms (DB: 1) | 302 Found [http://localhost/registrations/1]
+
+
+Processing RegistrationsController#index (for 127.0.0.1 at 2010-03-12 17:25:55) [GET]
+  [4;35;1mRegistration Load (0.4ms)[0m   [0mSELECT * FROM "registrations" [0m
+Rendering template within layouts/master
+Rendering registrations/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/registrations]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:25:58) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 17:26:06) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 17:26:07) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 17:29:52) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:29:55) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:30:25) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:32:22) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:32:55) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:35:01) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 17:36:01) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 17:36:02) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 17:36:03) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:38:53) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:38:53) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:39:02) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:39:51) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:40:35) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 61ms (View: 60, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:40:43) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:41:16) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:41:25) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:41:33) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:41:36) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:42:45) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:42:53) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:43:00) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:43:10) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:43:17) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:43:21) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:44:02) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:44:11) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:44:16) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:44:18) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 17:44:38) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 25ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:44:40) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:44:41) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:44:42) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:44:43) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:44:58) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:45:02) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:45:24) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:45:41) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:45:57) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:45:58) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:46:21) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:46:34) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:46:39) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:46:47) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:47:35) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:47:42) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:47:46) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:47:51) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:48:04) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:48:05) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:48:05) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:48:06) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:48:06) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:48:22) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:49:25) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:50:14) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 17:50:17) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 245ms (View: 58, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 17:50:18) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 67ms (View: 66, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 17:50:19) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:50:45) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:50:47) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 63ms (View: 62, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:51:47) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:52:00) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:52:07) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:53:05) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:54:34) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:55:21) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:55:57) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:56:04) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:56:14) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:56:20) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:56:25) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:56:29) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:56:34) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:56:37) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 17:57:36) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 17:57:37) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 17:57:37) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 17:57:42) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:57:43) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:58:15) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:58:26) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:58:29) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:58:46) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:59:16) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:59:56) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 17:59:59) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:00:03) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:00:09) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:00:14) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:00:21) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:00:37) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:00:41) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:00:46) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:00:48) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 12ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 18:00:50) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 18:00:51) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 18:01:00) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:01:02) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 18:01:04) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
