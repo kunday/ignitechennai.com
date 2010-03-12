@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta name="generator" content=
+  "HTML Tidy for Linux/x86 (vers 1 September 2005), see www.w3.org" />
+  <meta http-equiv="Content-Type" content=
+  "text/html; charset=us-ascii" />
+
+  <title>Ignite - Chennai</title>
+   <%= stylesheet_link_tag 'style' %>
+</head>
+
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>Ignite Chennai</h1>
+		<br />
+            <div class="navigation_bar">
+
+      			<a href="/">Home</a> |
+      			<a href="/about">About</a> |
+      			<a href="http://twitter.com/ignite_chn">Follow Us on Twitter</a> | 
+      			<a href="/registrations/new">Register</a> | 
+      		</div>
+	  <br />
+      <hr />
+    </div><!-- end header -->
+
+    <div id="left">
+      <h3>Inspiration</h3>
+		<p>
+		some other content comes in here
+		</p>
+      <h3>Updates</h3>
+		<p>
+			Posters sent out
+		</p>
+      <h3>Twitter</h3>
+		<p>Twitter updates come in here</p>
+     </div><!-- end left division -->
+
+    <div id="main">
+		<%=yield%>
+    </div>
+
+    <div id="footer">
+      <hr />
+
+      <p class="right">Ignite Chennai 2010</p>
+
+      <p>&nbsp;</p>
+    </div><!-- end footer -->
+  </div><!-- end container -->
+</body>
+</html>
