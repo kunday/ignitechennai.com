@@ -45,7 +45,7 @@ class RegistrationsController < ApplicationController
     respond_to do |format|
       if @registration.save
         flash[:notice] = 'Registration was successfully created.'
-        format.html { redirect_to(@registration) }
+        format.html { redirect_to(thank_you_path) }
         format.xml  { render :xml => @registration, :status => :created, :location => @registration }
       else
         format.html { render :action => "new" }
