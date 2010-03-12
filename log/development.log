@@ -3934,3 +3934,307 @@ Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 18:01:04) [GE
 Rendering template within layouts/master
 Rendering home/ignite_2009
 Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:02:51) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:05:11) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:05:20) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:05:51) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:30:16) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:30:18) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:30:56) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:31:07) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:31:10) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 146ms (View: 36, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#images to jpg (for 127.0.0.1 at 2010-03-12 18:31:10) [GET]
+  Parameters: {"id"=>"logo"}
+
+
+ActionController::UnknownAction (No action responded to images. Actions: create, destroy, edit, index, new, show, and update):
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:31:18) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 59ms (View: 32, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 18:31:20) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 91ms (View: 89, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 18:31:21) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 93ms (View: 92, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:31:28) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:31:31) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:31:33) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 167ms (View: 44, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:31:50) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 40ms (View: 21, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:31:55) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:32:08) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:32:13) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:32:35) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:32:41) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:32:57) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:33:01) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:33:04) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:33:08) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:33:12) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:33:17) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:33:23) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 18:33:24) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 80ms (View: 79, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 18:33:25) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 76ms (View: 75, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 18:33:29) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:33:30) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:33:40) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/registrations/new]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 18:33:40) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:33:45) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 18:33:46) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 22ms (View: 12, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#about (for 127.0.0.1 at 2010-03-12 18:33:47) [GET]
+Rendering template within layouts/master
+Rendering home/about
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/about]
+
+
+Processing HomeController#ignite_2009 (for 127.0.0.1 at 2010-03-12 18:33:49) [GET]
+Rendering template within layouts/master
+Rendering home/ignite_2009
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/ignite_2009]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-03-12 18:33:57) [GET]
+Rendering template within layouts/master
+Rendering home/index
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing RegistrationsController#new (for 127.0.0.1 at 2010-03-12 18:33:59) [GET]
+Rendering template within layouts/master
+Rendering registrations/new
+Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/registrations/new]
