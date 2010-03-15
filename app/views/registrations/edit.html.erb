@@ -1,36 +1,42 @@
-<h1>Editing registration</h1>
-
 <% form_for(@registration) do |f| %>
   <%= f.error_messages %>
 
   <p>
-    <%= f.label :name %><br />
+    <h3>First Name *</h3>
     <%= f.text_field :name %>
   </p>
   <p>
-    <%= f.label :last_name %><br />
+   <h3> Last Name *</h3>
     <%= f.text_field :last_name %>
   </p>
   <p>
-    <%= f.label :email %><br />
+    <h3>Company Name *</h3>
+    <%= f.text_field :company_name %>
+  </p>
+
+  <p>
+    <h3>EMail *</h3>
     <%= f.text_field :email %>
   </p>
   <p>
-    <%= f.label :one_line_abstract %><br />
+	<h3>I am attending this event as a </h3>
+	<%=f.select :type_of_attendee, ["Listener","Presenter"]%>
+  </p>
+<div id="one_line_abstract">
+  <p>
+   <h3> <%= f.label :one_line_abstract %> *</h3>
     <%= f.text_area :one_line_abstract %>
   </p>
+</div>
   <p>
-    <%= f.label :phone_no %><br />
+   <h3> Phone No:(optional)</h3>
     <%= f.text_field :phone_no %>
   </p>
   <p>
-    <%= f.label :mode_of_reach %><br />
-    <%= f.text_field :mode_of_reach %>
+    <h3>How did you know about this event? *</h3>
+    <%= f.select :mode_of_reach, ["thoughtworker.com", "Public posters", "Email", "Facebook/Twitter","Other Social Websites","Blogs","Friends"] %>
   </p>
   <p>
-    <%= f.submit "Update" %>
+    <%= f.submit "Register" %>
   </p>
 <% end %>
-
-<%= link_to 'Show', @registration %> |
-<%= link_to 'Back', registrations_path %>

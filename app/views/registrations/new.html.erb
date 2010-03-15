@@ -2,30 +2,44 @@
   <%= f.error_messages %>
 
   <p>
-    <h3><%= f.label :name %></h3>
+    <h3>First Name *</h3>
     <%= f.text_field :name %>
   </p>
   <p>
-   <h3> <%= f.label :last_name %> </h3>
+   <h3> Last Name *</h3>
     <%= f.text_field :last_name %>
   </p>
   <p>
-    <h3> <%= f.label :email %> </h3>
+    <h3>Company Name *</h3>
+    <%= f.text_field :company_name %>
+  </p>
+
+  <p>
+    <h3>EMail *</h3>
     <%= f.text_field :email %>
   </p>
   <p>
-   <h3> <%= f.label :one_line_abstract %></h3>
+	<h3>I am attending this event as a </h3>
+	<%=f.select :type_of_attendee, ["Listener","Presenter"], {:id=>"item_select"}%>
+  </p>
+<div id="one_line_abstract">
+  <p>
+   <h3> <%= f.label :one_line_abstract %> *</h3>
     <%= f.text_area :one_line_abstract %>
   </p>
+</div>
   <p>
-   <h3> <%= f.label :phone_no %></h3>
+   <h3> Phone No:(optional)</h3>
     <%= f.text_field :phone_no %>
   </p>
   <p>
-    <h3><%= f.label :mode_of_reach %></h3>
-    <%= f.text_field :mode_of_reach %>
+    <h3>How did you know about this event? *</h3>
+    <%= f.select :mode_of_reach, ["thoughtworker.com", "Public posters", "Email", "Facebook/Twitter","Other Social Websites","Blogs","Friends"] %>
+
   </p>
   <p>
     <%= f.submit "Register" %>
   </p>
 <% end %>
+
+<div id="message_display"></div>
