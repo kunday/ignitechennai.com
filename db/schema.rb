@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100315135127) do
+ActiveRecord::Schema.define(:version => 20100315135640) do
 
   create_table "mode_of_reaches", :force => true do |t|
     t.string   "name"
@@ -22,11 +22,12 @@ ActiveRecord::Schema.define(:version => 20100315135127) do
     t.string   "last_name"
     t.string   "email"
     t.text     "one_line_abstract"
-    t.integer  "phone_no"
     t.string   "mode_of_reach"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "company_name"
+    t.string   "type_of_attendee"
+    t.integer  "phone_no"
   end
 
 end
