@@ -15,23 +15,44 @@ html {
 }
 #container {
 	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
+	margin:0px auto;
 	text-align: left;
 	background-color: #FFFFFF;
 }
 #header {
 	width:100%;
-	padding-top:15px;
+	padding:10px 0px;
+	background:url(../images/bg_header_1.png) no-repeat right;
 }
-.navigation_bar {
-	 width: 100%;	 
+a img
+{
+    border:none;
+    margin-top:0px;
 }
-.navigation_bar{
-	font-size:18px;
-	color: #00000;
-	padding-right: 20px;
-	padding-top: 20px;
+.navigation_bar 
+{
+    border-top:5px solid #df0422;
+    background:#ccc;
+    height:35px;
+}
+.navigation_bar a
+{
+    display:block;
+    float:left;
+    padding:10px;
+    color:#333;
+    background:#ccc;
+}
+.navigation_bar a:hover
+{
+    background:url(../images/nav_hover.png) no-repeat center top #ddd;
+    text-decoration:none;
+    color:#000;
+}
+.navigation_bar a.selected
+{
+    background:#df0422;
+    color:#fff;
 }
 .spacer {
 	width:100%;
