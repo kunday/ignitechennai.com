@@ -172,3 +172,12 @@ a:hover {
 .tweet .tweet_list .tweet_avatar img {
 	vertical-align: middle;
 }
+.register a{
+	display:block;
+    float:left;
+    padding:10px;
+    color:#333;
+    background:#ccc;
+	font-size: 2em;
+	
+}

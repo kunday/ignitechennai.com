@@ -19,8 +19,8 @@
     <%= f.text_field :email %>
   </p>
   <p>
-	<h3>I am attending this event as a </h3>
-	<%=f.select :type_of_attendee, ["Listener","Presenter"], {:id=>"item_select"}%>
+	<h3>I am attending this event as a        &nbsp;&nbsp;&nbsp;&nbsp;  *</h3>
+	<%=f.select :type_of_attendee, ["Listener","Presenter"], {:id=>"item_select",:include_blank => 'Please Select'}%>
   </p>
 <div id="one_line_abstract">
   <p>
