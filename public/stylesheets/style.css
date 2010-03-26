@@ -172,12 +172,14 @@ a:hover {
 .tweet .tweet_list .tweet_avatar img {
 	vertical-align: middle;
 }
-.register a{
+.register_here {
 	display:block;
-    float:left;
-    padding:10px;
-    color:#333;
-    background:#ccc;
-	font-size: 2em;
-	
+	background:url(/images/register_now.png) no-repeat;
+	width:184px;
+	height:49px; 
+}
+.register_here:hover
+{
+	background:url(/images/register_now_hover.png) no-repeat;
+	cursor:pointer;
 }
