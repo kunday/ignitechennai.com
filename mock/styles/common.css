@@ -244,15 +244,18 @@ ul {
 	width: 150px;
 	height: 60px;
 	background-image: url(../images/submit.png);
-	float: right;
-	clear: both;
 	cursor: pointer;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
 }
 #overlay .registration-box .content .cancel {
-	float: right;
 	font-size: 1.2em;
 	margin: 22px 10px;
 	text-decoration: underline;
+	position: absolute;
+	bottom: 50px;
+	right: 194px;
 }
 #overlay .registration-box .content .errors {
 	border-width: 1px 0 1px 0;
@@ -262,8 +265,33 @@ ul {
 	padding: 5px;
 	background-color: #FCD1D1;
 	color: #981c1c;
+	display: none;
+}
+#overlay .registration-box .content .error {
+	border: 1px solid red;
+	background-color: #FCD1D1;
 }
 #overlay .registration-box .content .errors ul.error_list {
 	list-style-type: circle;
 	padding-left: 20px;
+}
+#overlay .registration-box .content .thank_you_content ul {
+	margin: 30px 0 0 0;
+	font-size: 1.2em;
+}
+#overlay .registration-box .content .thank_you_content ul li {
+	margin: 10px 0;
+}
+#overlay .registration-box .content .thank_you_content ul li.date {
+	font-weight: bold;
+	font-size: 1.5em;
+	letter-spacing: -1px;
+}
+#overlay .registration-box .content .thank_you_content .close {
+	font-size: 1.2em;
+	margin: 22px 10px;
+	text-decoration: underline;
+	position: absolute;
+	bottom: 50px;
+	right: 65px;
 }
