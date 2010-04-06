@@ -1,0 +1,269 @@
+body {
+	background-color: #333333;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	font-size: 12px;
+	color: 336666;
+}
+body,td,th,h1,h2,ul,li {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.strong {
+	font-weight: bold;
+}
+a, a:active, a:visited {
+	color: #ffcc00;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: #ffcc66;
+}
+ul {
+	list-style: none;
+	list-style-image: none;
+	list-style-type: none;
+}
+.light_brown {
+	color: #660000;
+}
+.dark_brown {
+	color: #330000;
+}
+#banner {
+	background: transparent url(../images/banner-strip.png) repeat-x scroll 0 -85px;
+	height: 183px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+#banner .ignite_chennai {
+	background: transparent url(../images/ignite-chennai.png) no-repeat scroll 0 0;
+	height: 100px;
+	width: 133px;
+	position: absolute;
+	right: 50%;
+	margin: 10px -490px 0 0 ;
+}
+#banner .chennai_central {
+	background: transparent url(../images/chennai-central.jpg) no-repeat scroll 0 0;
+	height: 121px;
+	width: 287px;
+	position: absolute;
+	right: 50%;
+	margin-right: -331px;
+}
+#banner .tag_line {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #666;
+	font-size: 1.7em;
+	left: 50%;
+	margin-left: -495px;
+	position: absolute;
+	top: 88px;
+}
+#banner .gray_shine {
+	background: transparent url(../images/gray-shine.png) no-repeat scroll 0 -15px;
+	height: 125px;
+	width: 380px;
+	position: absolute;
+	left: 50%;
+	margin-left: -528px ;
+}
+#banner .gray_shine h1 {
+	font-size: 3.3em;
+	letter-spacing: -3px;
+	margin: 11px 36px;
+	text-align: center;
+	width: 280px;
+	color: #1D1D1D;
+}
+#orange_box {
+	background-image: url(../images/orange.jpg);
+	height: 524px;
+	width: 300px;
+	position: absolute;
+	z-index: 25;
+	top: 139px;
+	left: 50%;
+	margin-left: -501px;
+}
+#orange_box h1 {
+	font-size: 4.7em;
+	text-align: center;
+	margin-top: 10px;
+	letter-spacing: -4px;
+	line-height: 63px;
+}
+#orange_box h2 {
+	font-size: 3.0em;
+	text-align: center;
+	letter-spacing: -2px;
+	line-height: 26px;
+	margin-bottom: 15px;
+}
+#orange_box .register {
+	background: transparent url(../images/register.png) no-repeat scroll 0 0;
+	height: 77px;
+	width: 187px;
+	margin: 10px auto;
+	cursor: pointer;
+}
+#orange_box .info {
+	margin: 10px;
+	font-size: 1.25em;
+}
+#orange_box .info ul li.question {
+	font-weight: bold;
+	color: #330000;
+}
+#orange_box .info ul li.answer {
+	font-weight: normal;
+	color: #660000;
+	margin-bottom: 18px;
+}
+#content_area {
+	width: 687px;
+	position: absolute;
+	left: 50%;
+	margin-left: -186px;
+	top: 139px;
+	background-image: url(../images/black-bg-50-opacity.png);
+	background-repeat: repeat;
+}
+#content_area .content {
+	color: #CCC;
+	padding: 5px 15px;
+}
+#content_area .content h3 {
+	margin: 5px 0;
+	padding: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1.3em;
+	color: #ff9900;
+}
+#content_area .content p {
+	margin: 10px 0 20px;
+	color: inherit;
+}
+#content_area .tweet {
+	margin: 10px 0 15px 15px;
+	width: 200px;
+	float: right;
+	padding: 5px;
+	background-color: #bbdbe8;
+	background-image: url(../images/tweet-bg.jpg);
+	background-repeat: no-repeat;
+}
+#content_area .tweet .tweet_title {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2.6em;
+	text-align: center;
+	margin: 5px 0;
+}
+#content_area .tweet ul.follow {
+	margin: 5px;
+	color: #e8e8e8;
+	font-size: 2.3em;
+	font-weight: bold;
+	letter-spacing: -1px;
+	height: 65px;
+}
+#content_area .tweet ul.follow li {
+	margin-right: 10px;
+	color: #cc0000;
+}
+#content_area .tweet ul.follow li.twitter {
+	background: transparent url(../images/Twitter.png) no-repeat scroll 0 0;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	float: left;
+}
+#content_area .tweet ul.follow li.facebook {
+	background: transparent url(../images/Facebook.png) no-repeat scroll 0 0;
+	width: 32px;
+	height: 32px;
+	cursor: pointer;
+	float: left;
+}
+#overlay {
+	background-image: url(../images/black-bg-50-opacity.png);
+	background-repeat: repeat;
+	position: fixed;
+	z-index: 50;
+	height: 100%;
+	width: 100%;
+	display: none;
+}
+#overlay .registration-box {
+	background-image: url(../images/registration-overlay.png);
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 51;
+	height: 519px;
+	width: 596px;
+	top: 92px;
+	left: 50%;
+	margin-left: -298px;
+}
+#overlay .registration-box .content {
+	margin: 70px;
+	color: #A7D0E3;
+}
+#overlay .registration-box .content h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2.3em;
+}
+#overlay .registration-box .content form ul li {
+	float: left;
+	margin: 15px 30px auto 0;
+	width: 410px;
+}
+#overlay .registration-box .content form ul li.no-right-margin {
+	margin-right: 0;
+}
+#overlay .registration-box .content form ul li span {
+	display: block;
+	margin-bottom: 2px;
+}
+#overlay .registration-box .content form ul li input[type=text] {
+	width: 100%;
+}
+#overlay .registration-box .content form ul li select {
+	width: 100%;
+}
+#overlay .registration-box .content .submit {
+	width: 150px;
+	height: 60px;
+	background-image: url(../images/submit.png);
+	float: right;
+	clear: both;
+	cursor: pointer;
+}
+#overlay .registration-box .content .cancel {
+	float: right;
+	font-size: 1.2em;
+	margin: 22px 10px;
+	text-decoration: underline;
+}
+#overlay .registration-box .content .errors {
+	border-width: 1px 0 1px 0;
+	border-color: #B55959;
+	border-style: solid;
+	margin: 10px 0 0;
+	padding: 5px;
+	background-color: #FCD1D1;
+	color: #981c1c;
+}
+#overlay .registration-box .content .errors ul.error_list {
+	list-style-type: circle;
+	padding-left: 20px;
+}
