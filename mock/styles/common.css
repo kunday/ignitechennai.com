@@ -121,11 +121,11 @@ ul {
 	font-size: 1.25em;
 }
 #orange_box .info ul li.question {
-	font-weight: bold;
+/*	font-weight: bold;*/
 	color: #330000;
 }
 #orange_box .info ul li.answer {
-	font-weight: normal;
+/*	font-weight: normal;*/
 	color: #660000;
 	margin-bottom: 18px;
 }

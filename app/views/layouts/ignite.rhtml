@@ -24,9 +24,9 @@
 		<%= link_to "Register", new_registration_path, :class=>"register" %>
 		<div class="info">
 			<ul>
-				<li class="question">Who should attend</li>
+				<li class="question">Who should attend?</li>
 				<li class="answer">Anyone and everyone! This event is free and open to all.</li>
-				<li class="question">Who can present</li>
+				<li class="question">Who can present?</li>
 				<li class="answer">Absolutely anyone!</li>
 				<li class="question">Will there be food?</li>
 				<li class="answer">Snacks & Refreshments, yes!</li>
@@ -40,6 +40,7 @@
 						<li>Ekkatuthangal, Guindy</li>
 						<li>Chennai - 600 032</li>
 						<li>tel: +91 44 43953500</li>
+						<li><a href="mailto:ignitechennai@thoughtworks.com">ignitechennai@thoughtworks.com</a> </li>
 					</ul>
 				</li>
 			</ul>
@@ -138,15 +139,15 @@ $(document).ready(function(){
 	});
 	$('#one_line_abstract').hide();
 	$("#registration_type_of_attendee").change(function() 
-	    { 
-	        var message_index 
+	{ 
+		var message_index 
 
-	        message_index = $("#registration_type_of_attendee").val(); 
-	        if (message_index == "Presenter") 
-	            $("#one_line_abstract").show();
-			else
-				$("#one_line_abstract").hide();
-	    });
+		message_index = $("#registration_type_of_attendee").val(); 
+		if (message_index == "Presenter") 
+		$("#one_line_abstract").show();
+		else
+		$("#one_line_abstract").hide();
+	});
 });
 </script>
 </html>
