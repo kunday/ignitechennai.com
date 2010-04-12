@@ -1,0 +1,210 @@
+From e92fed7c7bfabee109263bd14bba6d3a12468398 Mon Sep 17 00:00:00 2001
+From: Praveen Selvam <praveen.selvam@thoughtworks.com>
+Date: Mon, 12 Apr 2010 15:24:18 +0530
+Subject: [PATCH] Nav bar
+
+---
+ mock/index.html        |   60 +++++++++++++++++++++++++++++------------------
+ mock/js/page.js        |   22 +++++++++++++++++
+ mock/styles/common.css |   32 ++++++++++++++++++++++++-
+ 3 files changed, 90 insertions(+), 24 deletions(-)
+
+diff --git a/mock/index.html b/mock/index.html
+index 75d7167..847de73 100644
+--- a/mock/index.html
++++ b/mock/index.html
+@@ -12,13 +12,17 @@
+ </head>
+ 
+ <body>                
+-<div id="banner">
++    <div id="banner">
+     	<div class="gray_shine">
+         	<h1>5 mins, 20 slides</h1>
+         </div>
+         <div class="ignite_chennai"></div>
+         <div class="chennai_central"></div>
+         <div class="tag_line">Enlighten us, but make it quick.</div>
++        <ul class="menu">
++            <li><a href="javascript: void(0);" class="content_1">Home</a></li>
++            <li><a href="javascript: void(0);" class="content_2">Past Ignite Events</a></li>
++        </ul>
+     </div>
+     <div id="orange_box" class="light_brown">
+         <h1>fri, <span class="dark_brown">23 apr.</span></h1>
+@@ -35,7 +39,7 @@
+                 <li class="question">Venue</li>
+                 <li class="answer">
+                     <ul>
+-                        <li>ThoughtWorks - <a href="javascript: void(0);">Get Directions</a></li>
++                        <li>ThoughtWorks - <a href="javascript: void(0);" class="directions">Get Directions</a></li>
+                         <li>R R Tower 5, Level - 2, Rishabh Info Park</li>
+                         <li>33 A Developed Plots</li>
+                         <li>ThiruViKa Industrial Estate</li>
+@@ -49,28 +53,38 @@
+     </div>
+     <div id="content_area">
+         <div class="content">
+-        	<div class="tweet">
+-            	<div class="tweet_title">tweet tweet...</div>
+-                <div class="tweets_container"></div>
+-                <ul class="follow">
+-                    <li>follow us...</li>
+-                    <li class="twitter"></li>
+-                    <li class="facebook"></li>
+-                </ul>
++            <div class="con content_1">
++        	    <div class="tweet">
++            	    <div class="tweet_title">tweet tweet...</div>
++                    <div class="tweets_container"></div>
++                    <ul class="follow">
++                        <li>follow us...</li>
++                        <li class="twitter"></li>
++                        <li class="facebook"></li>
++                    </ul>
++                </div>
++                <h3>What is Ignite?</h3>
++                <p>
++                    Fast-paced, fun, thought-provoking, social, local, global—Ignite is all of these and more. It's a high-energy evening of 5-minute talks by people who have an idea—and the guts to get onstage and share it with their hometown crowd. Run by local volunteers who are connected through the global Ignite network, Ignite is a force for raising the collective IQ and building connections in each city. And, via streaming and archived videos of local talks, local Ignites share all that knowledge and passion with the world.
++                </p>
++                <h3>How it all began</h3>
++                <p>
++                    Ignite got its start in Seattle in December, 2006, as a personal project of O'Reilly's Brady Forrest and Bre Pettis. They dreamed up an event where people could share their ideas over beer, and sent word out through their network. On December 7, two hundred Seattle geeks looking for "a fun night of geekery and networking" squeezed into a bar on Capitol Hill. They found beer, but so much more. First up, a friendly but intense competition to build the sturdiest popsicle-stick bridge. Then 25 intrepid locals took a turn on the stage for their five-minute Ignite talks. The consensus was that it was a blast. Word got out, and other communities wanted Ignite in their cities. Brady and Bre turned the event over to O'Reilly, and nearly 200 Ignites have been held, about half of them in the past year.
++                </p>
++                <h3>Ignite Chennai</h3>
++                <p>
++                    "People demand freedom of speech as a compensation for the freedom of thoughts which they seldom use." Ignite Chennai is back again with a huge bang and is all set to make a yet another mark in Chennai history on April 23, 2010, 6:00 PM at ThoughtWorks Technologies, Guindy!! 
++                </p>
++                <embed class="_flash_content" height="400" width="600" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="host=picasaweb.google.com&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fkunday%2Falbumid%2F5449160661668960161%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCJHjwsKU2Kmn-AE%26hl%3Den_US" src="http://picasaweb.google.com/s/c/bin/slideshow.swf" type="application/x-shockwave-flash" />
++            </div>
++            <div class="con content_2 hide">
++                <h3>Past Ignite events</h3>
++                <p>
++                    Something about... Something about... Something about... Something about... Something about... Something about... 
++                    Something about... Something about... Something about... Something about... Something about... Something about... 
++                </p>
++                <embed class="_flash_content" width="600" height="400" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="host=picasaweb.google.com&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fzeeferoz%2Falbumid%2F5455102871121688209%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_US" src="http://picasaweb.google.com/s/c/bin/slideshow.swf" type="application/x-shockwave-flash">
+             </div>
+-            <h3>What is Ignite?</h3>
+-            <p>
+-                Fast-paced, fun, thought-provoking, social, local, global—Ignite is all of these and more. It's a high-energy evening of 5-minute talks by people who have an idea—and the guts to get onstage and share it with their hometown crowd. Run by local volunteers who are connected through the global Ignite network, Ignite is a force for raising the collective IQ and building connections in each city. And, via streaming and archived videos of local talks, local Ignites share all that knowledge and passion with the world.
+-            </p>
+-            <h3>How it all began</h3>
+-            <p>
+-                Ignite got its start in Seattle in December, 2006, as a personal project of O'Reilly's Brady Forrest and Bre Pettis. They dreamed up an event where people could share their ideas over beer, and sent word out through their network. On December 7, two hundred Seattle geeks looking for "a fun night of geekery and networking" squeezed into a bar on Capitol Hill. They found beer, but so much more. First up, a friendly but intense competition to build the sturdiest popsicle-stick bridge. Then 25 intrepid locals took a turn on the stage for their five-minute Ignite talks. The consensus was that it was a blast. Word got out, and other communities wanted Ignite in their cities. Brady and Bre turned the event over to O'Reilly, and nearly 200 Ignites have been held, about half of them in the past year.
+-            </p>
+-            <h3>Ignite Chennai</h3>
+-            <p>
+-                "People demand freedom of speech as a compensation for the freedom of thoughts which they seldom use." Ignite Chennai is back again with a huge bang and is all set to make a yet another mark in Chennai history on April 23, 2010, 6:00 PM at ThoughtWorks Technologies, Guindy!! 
+-            </p>
+-            <embed class="_flash_content" height="400" width="600" pluginspage="http://www.macromedia.com/go/getflashplayer" flashvars="host=picasaweb.google.com&amp;hl=en_US&amp;feat=flashalbum&amp;RGB=0x000000&amp;feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fkunday%2Falbumid%2F5449160661668960161%3Falt%3Drss%26kind%3Dphoto%26authkey%3DGv1sRgCJHjwsKU2Kmn-AE%26hl%3Den_US" src="http://picasaweb.google.com/s/c/bin/slideshow.swf" type="application/x-shockwave-flash">
+         </div>
+     </div>
+     
+diff --git a/mock/js/page.js b/mock/js/page.js
+index 6a842fb..b15d67f 100644
+--- a/mock/js/page.js
++++ b/mock/js/page.js
+@@ -180,6 +180,27 @@ var Registration = function(){
+ 		});
+ 	}
+ 	
++	var _setLinks = function() {
++	    $('#banner .menu a').each(function(){
++	        $(this).click(function(){
++	            $('#content_area .content .con').hide();
++	            $('#content_area .content .' + $(this).attr('class')).show();
++	        });
++	    });
++	    
++	    $('.follow .twitter').click(function(){
++	        window.open('http://twitter.com/ignitechennai');
++	    });
++	    
++	    $('.follow .facebook').click(function(){
++	        window.open('http://www.facebook.com/group.php?gid=367725998723');
++	    });
++	    
++	    $('#orange_box .directions').click(function(){
++	        window.open('http://maps.google.com/maps?q=thoughtworks,chennai&z=13');
++	    });
++	}
++	
+ 	var _init = function(){
+ 		_registrationContent.show();
+ 		_thankYouContent.hide();
+@@ -187,6 +208,7 @@ var Registration = function(){
+ 		_bindOverlayControls();
+ 		_bindForm();
+ 		_resetForm();
++		_setLinks();
+ 	}
+ 	
+ 	_init();
+diff --git a/mock/styles/common.css b/mock/styles/common.css
+index f8ff83f..3217168 100644
+--- a/mock/styles/common.css
++++ b/mock/styles/common.css
+@@ -16,6 +16,9 @@ body,td,th,h1,h2,ul,li {
+ .strong {
+ 	font-weight: bold;
+ }
++.hide {
++	display: none;
++}
+ a, a:active, a:visited {
+ 	color: #ffcc00;
+ 	font-weight: bold;
+@@ -35,6 +38,9 @@ ul {
+ .dark_brown {
+ 	color: #330000;
+ }
++._flash_content {
++	margin-bottom: 15px;
++}
+ #banner {
+ 	background: transparent url(../images/banner-strip.png) repeat-x scroll 0 -85px;
+ 	height: 183px;
+@@ -68,6 +74,30 @@ ul {
+ 	margin-left: -495px;
+ 	position: absolute;
+ 	top: 88px;
++	display: none;
++}
++#banner .menu {
++	font-family: Georgia, "Times New Roman", Times, serif;
++	color: #666;
++	font-size: 1.7em;
++	left: 50%;
++	margin-left: -495px;
++	position: absolute;
++	top: 88px;
++	letter-spacing: -1px;
++	text-transform: lowercase;	
++}
++#banner ul.menu li {
++	display: inline;
++	margin-right: 20px;
++}
++#banner ul.menu a, #banner ul.menu a:link, #banner ul.menu a:visited {
++	cursor: pointer;
++	color: #330000;
++}
++#banner ul.menu a:hover {
++	text-decoration: underline;
++	color: #660000;
+ }
+ #banner .gray_shine {
+ 	background: transparent url(../images/gray-shine.png) no-repeat scroll 0 -15px;
+@@ -154,7 +184,7 @@ ul {
+ 	color: inherit;
+ }
+ #content_area .tweet {
+-	margin: 10px 0 15px 15px;
++	margin: 5px 0 15px 15px;
+ 	width: 200px;
+ 	float: right;
+ 	padding: 5px;
+-- 
+1.6.5.1.1367.gcd48
+
