@@ -109,12 +109,14 @@ ul {
 	line-height: 26px;
 	margin-bottom: 15px;
 }
-#orange_box .register {
+#orange_box .register, #orange_box .register a{
 	background: transparent url(../images/register.png) no-repeat scroll 0 0;
 	height: 77px;
 	width: 187px;
 	margin: 10px auto;
 	cursor: pointer;
+	display:block;
+	text-indent:-999px;
 }
 #orange_box .info {
 	margin: 10px;
@@ -212,7 +214,7 @@ ul {
 	width: 596px;
 	top: 92px;
 	left: 50%;
-	margin-left: -298px;
+	margin-left: -198px;
 }
 #overlay .registration-box .content {
 	margin: 70px;
