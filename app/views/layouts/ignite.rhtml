@@ -38,7 +38,7 @@
 				<li class="question">Venue</li>
 				<li class="answer">
 					<ul>
-						<li>ThoughtWorks - <a href="javascript: void(0);">Get Directions</a></li>
+						<li>ThoughtWorks - <a href="http://maps.google.com/maps?q=thoughtworks,chennai&z=13" target="_blank">Get Directions </a></li>
 						<li>R R Tower 5, Level - 2, Rishabh Info Park</li>
 						<li>33 A Developed Plots</li>
 						<li>ThiruViKa Industrial Estate</li>
@@ -143,6 +143,13 @@ $(document).ready(function(){
 		loading_text: "loading tweets..."
 	});
 	$('#one_line_abstract').hide();
+	$('.twitter').click(function() {
+		window.location.href = "http://twitter.com/ignitechennai";
+	});
+	$('.facebook').click(function() {
+		window.location.href = "http://www.facebook.com/group.php?gid=367725998723";
+	});
+	
 	$("#registration_type_of_attendee").change(function() 
 	{ 
 		var message_index 
