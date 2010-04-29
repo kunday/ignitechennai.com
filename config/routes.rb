@@ -4,6 +4,7 @@ ActionController::Routing::Routes.draw do |map|
   map.about '/about', :controller=>'home', :action=>'about'
   map.thank_you '/thank_you', :controller=>'home', :action=>'thank_you'
   map.ignite_2009 '/ignite_2009', :controller => 'home', :action => 'ignite_2009'
+  map.ignite_2010 '/ignite_2010', :controller => 'home', :action => 'ignite_2010'
 
   # The priority is based upon order of creation: first created -> highest priority.
 

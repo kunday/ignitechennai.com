@@ -5,8 +5,6 @@ class HomeController < ApplicationController
   end
   def thank_you
   end
-  def ignite_2009
-    
+  def ignite_2009    
   end
-  
 end
