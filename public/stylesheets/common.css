@@ -126,24 +126,24 @@ ul {
 	margin-left: -501px;
 }
 #orange_box h1 {
-	font-size: 4.7em;
+	font-size: 3.8em;
 	text-align: center;
 	margin-top: 10px;
 	letter-spacing: -4px;
 	line-height: 63px;
 }
 #orange_box h2 {
-	font-size: 3.0em;
+	font-size: 2.0em;
 	text-align: center;
 	letter-spacing: -2px;
 	line-height: 26px;
 	margin-bottom: 15px;
 }
-#orange_box .register {
-	background: transparent url(../images/register.png) no-repeat scroll 0 0;
-	height: 77px;
-	width: 187px;
-	margin: 10px auto;
+#orange_box .watch {
+	background: url("../images/watch-videos.png") no-repeat scroll -3px 0 transparent;
+	height: 137px;
+	width: 306px;
+	margin: 10px auto 0 -10px;
 	cursor: pointer;
 	display:block;
 	text-indent:-999px;
@@ -152,14 +152,21 @@ ul {
 	margin: 10px;
 	font-size: 1.25em;
 }
-#orange_box .info ul li.question {
-	font-weight: bold;
-	color: #330000;
+#orange_box .info ul li.big {
+	color:#660000;
+	font-size:2.0em;
+	font-weight:bold;
+	letter-spacing:-2px;
+	margin-bottom:10px;
+	text-align:center;
 }
-#orange_box .info ul li.answer {
+#orange_box .info div.sub {
 	font-weight: normal;
 	color: #660000;
-	margin-bottom: 6px;
+	margin: 20px 0 10px;
+}
+#orange_box .info div.sub b {
+	color: #330000;
 }
 #content_area {
 	width: 687px;
